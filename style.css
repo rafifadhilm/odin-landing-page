@@ -125,7 +125,7 @@ article {
 
 .info-cards {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 48px;
 }
 
@@ -169,4 +169,51 @@ article {
 
 .author {
   margin: 0;
+}
+
+/* Action */
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 200px;
+  min-height: 250px;
+}
+
+.card-action {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 36px 72px;
+  background-color: #3882F6;
+  border-radius: 6px;
+  gap: 12px;
+}
+
+.action-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.action-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.action-text {
+  margin: 0;
+  color: #F9FAF8;
+  font-weight: lighter;
+}
+
+.card-action .btn-signup {
+  height: 36px;
+  background-color: #3882F6;
+  border: 2px solid #E5E7EB;
+  align-self: center;
 }
