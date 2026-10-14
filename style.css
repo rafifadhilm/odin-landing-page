@@ -104,3 +104,41 @@ section .btn-signup {
   color: #F9FAF8;
   font-weight: lighter;
 }
+
+/* Information */
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 160px;
+  min-height: 275px;
+}
+
+.info-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 36px;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.card-container {
+  width: 170px;
+}
+
+.card {
+  height: 170px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+}
+
+.card-text {
+  text-align: center;
+}
