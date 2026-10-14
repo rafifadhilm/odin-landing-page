@@ -125,7 +125,7 @@ article {
 
 .info-cards {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 48px;
 }
 
@@ -141,4 +141,32 @@ article {
 
 .card-text {
   text-align: center;
+}
+
+/* Quotes */
+
+.quote {
+  background-color: #E5E7EB;
+  min-height: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 225px;
+  gap: 16px;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.author {
+  margin: 0;
 }
