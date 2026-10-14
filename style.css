@@ -217,3 +217,18 @@ article {
   border: 2px solid #E5E7EB;
   align-self: center;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background-color: #1F2937;
+}
+
+.footer-text {
+  color: #F9FAF8;
+  font-weight: lighter;
+}
