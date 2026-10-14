@@ -1,0 +1,106 @@
+body {
+  font-family: Roboto, "Times new Roman", sans-serif;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #1F2937;
+  padding: 8px 160px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-weight: lighter;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.header-link {
+  display: flex;
+  gap: 16px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 375px;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.hero {
+  flex: 1;
+}
+
+.hero.section {
+  min-height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.secondary-text {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: lighter;
+}
+
+.btn-signup {
+  border-radius: 8px;
+  padding: 8px 28px;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: medium;
+  box-sizing: border-box;
+  width: 125px;
+}
+
+section .btn-signup {
+  border: none;
+  background-color: #3882F6;
+}
+
+.hero.image {
+  background-color: rgb(147, 148, 148);
+  min-height: 225px;
+  min-width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder {
+  color: #F9FAF8;
+  font-weight: lighter;
+}
